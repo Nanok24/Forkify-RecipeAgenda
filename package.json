@@ -1,0 +1,33 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Agenda application",
+  "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nanok24/Forkify-RecipeAgenda.git"
+  },
+  "author": "Mihnea Ion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nanok24/Forkify-RecipeAgenda/issues"
+  },
+  "homepage": "https://github.com/Nanok24/Forkify-RecipeAgenda#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "fracty": "^1.0.10",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
